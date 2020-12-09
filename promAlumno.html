@@ -1,0 +1,30 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Promedio Alumno</title>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/agregar">Agregar Calificacion</a></li>
+                <li><a href="/promA">Promedio de un Alumno</a></li>
+                <li><a href="promG">Promedio General</a></li>
+                <li><a href="promM">Promedio de una materia</a></li>
+              
+            </ul>
+        </nav>
+
+
+        <form action="/promedioA" method="POST" id="promAform">
+            <label>Nombre del Alumno:</label>
+            <select name="nombre" form="promAform">
+                "%s"
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+
+    </html>
